@@ -1,0 +1,41 @@
+
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+import java.util.Scanner; 
+
+class Ideone
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		   int i = (int) (Math.random() * 100);
+
+      System.out.println("Случайное число:" + i);
+      
+      
+	}
+}
+
+   public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      System.out.println("Введите число:");
+      int a = sc.nextInt();
+      sc.close(); {
+      System.out.println("Введено число:" + a);
+
+   }
+}
+
+ public static void main(String[] args) {
+        loop:
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 9; j++) {
+                if (i == 5)
+                    break loop;
+                System.out.println("i = " + i + " j = " + j);
+            }
+        }
+    }
+    
+    
